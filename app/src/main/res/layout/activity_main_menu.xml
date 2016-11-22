@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:id="@+id/searchBar"
+            android:layout_height="50dp" />
+
+        <ImageSwitcher
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/img_Main" />
+
+        <Button
+            android:text="@string/Near_Me"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_NearMe"
+            tools:text="Near Me" />
+
+        <Button
+            android:text="@string/School"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_School"
+            tools:text="School"
+            android:textAlignment="center"
+            android:elevation="0dp" />
+
+        <Button
+            android:text="@string/College"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_College"
+            tools:text="College" />
+
+        <Button
+            android:text="@string/Learning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_Learning"
+            tools:text="Learning Centre" />
+
+        <TextView
+            android:text="@string/LastView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            tools:text="Last View" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/grd_LastView">
+
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>

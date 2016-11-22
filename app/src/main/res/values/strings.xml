@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sophia</string>
+    <string name="action_settings">Action Setting</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Near_Me">Near Me</string>
+    <string name="School">School</string>
+    <string name="College">College</string>
+    <string name="Learning">Learning</string>
+    <string name="LastView">Last_View</string>
+</resources>
