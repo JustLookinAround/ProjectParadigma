@@ -36,7 +36,8 @@
             android:id="@+id/btn_School"
             tools:text="School"
             android:textAlignment="center"
-            android:elevation="0dp" />
+            android:elevation="0dp"
+            android:onClick="goToIns"/>
 
         <Button
             android:text="@string/College"

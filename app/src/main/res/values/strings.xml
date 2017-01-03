@@ -7,4 +7,15 @@
     <string name="College">College</string>
     <string name="Learning">Learning</string>
     <string name="LastView">Last_View</string>
+    <string name="institutionName">Test Institution</string>
+    <string name="institutionRating">3</string>
+    <string name="insName">Institution Name</string>
+    <string name="insType">Institution Type</string>
+    <string name="insLoc">Institution Location</string>
+    <string name="insDist">Distance: 4km; Last update 5 days ago</string>
+    <string name="Description">Description</string>
+    <string name="InsDesc">Persius officiis eloquentiam ut sed,ius nostrud sensibus ea. Eu ullum inani posidonium quo, zzril quaestio intellegat in quo</string>
+    <string name="seeMore"><![CDATA[See More >>]]></string>
+    <string name="courseAndPricing"><![CDATA[Course & Pricing]]></string>
+    <string name="insRating">Rating</string>
 </resources>
